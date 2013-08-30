@@ -1,11 +1,11 @@
 Summary:	Linux Key Management Utilities
 Name:		keyutils
-Version:	1.5.5
-Release:	3
+Version:	1.5.6
+Release:	1
 License:	LGPL v2+ (library), GPL v2+ (utility)
 Group:		Base
 Source0:	http://people.redhat.com/~dhowells/keyutils/%{name}-%{version}.tar.bz2
-# Source0-md5:	d759680b2f23c99af95938f5026f25fb
+# Source0-md5:	2a459462c7ebdff0ce2eb398b92ced9c
 Requires:	%{name}-libs = %{version}-%{release}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
